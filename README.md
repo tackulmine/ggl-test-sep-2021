@@ -9,7 +9,13 @@
 
 ## How to Run
 
-First, please install xampp.
+First, please install XAMPP, open it, and start the apache and mysql service
+
+Second, open a console at this project and follow the instructions below:
+
+- run `composer ins`
+- run `npm i`
+- run `npm run watch`
 
 For test 1-3, please open a console and type the commands below:
 
@@ -26,3 +32,4 @@ For test 4-5, open a console at this project and follow the instructions below:
 - type `php artisan serve`
 - open a browser and type the address `localhost:8000`
 - please login with username: `admin@admin.com` and password: `password`
+- please use sidebar menu links to access the features
