@@ -19,17 +19,17 @@ Second, open a console at this project and follow the instructions below:
 
 For test 1-3, please open a console and type the commands below:
 
-- First Test: `php artisan first:test`
-- Second Test: `php artisan second:test`
-- Third Test: `php artisan third:test`
+- First Test, run: `php artisan first:test`
+- Second Test, run: `php artisan second:test`
+- Third Test, run: `php artisan third:test`
 
 For test 4-5, open a console at this project and follow the instructions below:
 
-- type `cp .env.example .env`
-- type `php artisan key:generate`
+- run `cp .env.example .env`
+- run `php artisan key:generate`
 - open .env in root project and please adjust the database connection
-- type `php artisan migrate:fresh --seed`
-- type `php artisan serve`
+- run `php artisan migrate:fresh --seed`
+- run `php artisan serve`
 - open a browser and type the address `localhost:8000`
 - please login with username: `admin@admin.com` and password: `password`
 - please use sidebar menu links to access the features
